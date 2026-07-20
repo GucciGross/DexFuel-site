@@ -17,10 +17,12 @@ DexFuel is local-first and works without an account.
 
 ## Apple Health And Motion
 
-Apple Health step access and motion access are optional. You can change these permissions in iOS Settings at any time.
+Apple Health, motion, and precise-location access are optional. You can change these permissions in iOS Settings at any time. Background location is used only during an outdoor activity you start. Downloaded Mapbox regions can be removed from Move > Offline maps, and recorded routes are included when you clear or export local DexFuel data.
 
 ## Online Features
 
-If a production build enables cloud Dex AI, DexFuel asks for consent before sending prompt/profile/log context. If online food import or photo macro estimates are enabled, those actions run only when you choose them.
+If a production build enables cloud Dex AI, DexFuel asks for consent before sending prompt/profile/log context or a meal name and ingredient list for representative meal-image generation. If online food import or photo macro estimates are enabled, those actions run only when you choose them.
+
+Turning cloud Dex AI off prevents new AI requests. The DexFuel proxy is designed not to intentionally persist request bodies. Contact support from the support page for questions about production service records.
 
 DexFuel does not include third-party ads and does not use tracking for advertising.
